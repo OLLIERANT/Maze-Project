@@ -11,35 +11,34 @@ Simple DirectMedia Layer is a cross-platform development library designed to pro
 The goal of this project is to create a game in 3D using the raycasting as the development concept.
 
 <h3>Tasks</h3>
-	<ol>0. Walls !</ol>
-	   In this first part, you’ll have to:
-		<li>Create a window with SDL2</l>
-		<li>Use raycasting to draw walls on your window !</li>
-		<li>You don't need to be able to rotate the camera during the execution in this part, but you must provide a way to change the angle of the camera in your code to see if it works after recompiling it</li>
-		<li>The color of the walls must be different from the color of the ground/ceiling</li>
-		<li>The map doesn’t need to be parsed from a file, but you must provide a way to modify it in your code to see if it works after recompiling it. (e.g. using an array of arrays of integers or characters)</li>
+<ol>0. Walls !</ol>
+In this first part, you’ll have to:
+<li>Create a window with SDL2</li>
+<li>Use raycasting to draw walls on your window !</li>
+<li>You don't need to be able to rotate the camera during the execution in this part, but you must provide a way to change the angle of the camera in your code to see if it works after recompiling it</li>
+<li>The color of the walls must be different from the color of the ground/ceiling</li>
+<li>The map doesn’t need to be parsed from a file, but you must provide a way to modify it in your code to see if it works after recompiling it. (e.g. using an array of arrays of integers or characters)</li>
 	
-	<ol>1.Orientation</ol>
-	   In this part, you must draw a different color depending on the orientation of the walls.
-		<li>You must at least draw walls facing NORTH and SOUTH in a different color from walls facing EAST and WEST</li>
+<ol>1. Orientation</ol>
+In this part, you must draw a different color depending on the orientation of the walls.
+<li>You must at least draw walls facing NORTH and SOUTH in a different color from walls facing EAST and WEST</li>
 	
-	<ol>Rotation</ol>
-	   You must provide a way to rotate the camera during the execution.
-		<li>For example, you can rotate the camera when the left,right arrows are pressed on the keyboard
-Or you can rotate the camera when the mouse moves, just like a FPS game !</li>
+<ol>2. Rotation</ol>
+You must provide a way to rotate the camera during the execution.
+<li>For example, you can rotate the camera when the left,right arrows are pressed on the keyboard</li>
+<li>Or you can rotate the camera when the mouse moves, just like a FPS game !</li>
 
-	<ol>Move</ol>
-	   You must provide a way to move the camera during the execution.
-		<li>For example, you can move the camera when the w,a,s,d keys are pressed on the keyboard
+<ol>3. Move</ol>
+You must provide a way to move the camera during the execution.
+<li>For example, you can move the camera when the w,a,s,d keys are pressed on the keyboard</li>
 
-<ol>Ouch !</ol>
-
+<ol>4. Ouch !
 In this part, you must handle the collisions of the player (yes, let’s call the camera player now, it’s getting serious) with the walls.
 
-The player must not be able to enter walls
-You can make the player slide on the walls instead of just stop it
-Parser
-
+<li>The player must not be able to enter walls</li>
+<li>You can make the player slide on the walls instead of just stop it</li>
+</ol>
+<ol>5. Parser
 In this part you must implement a parser to get the map from a file.
 
 You are free to define the standards of your map (The character for a wall, the character for nothing, the extension of the file if you want, …)
