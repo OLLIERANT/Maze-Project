@@ -10,8 +10,8 @@ Simple DirectMedia Layer is a cross-platform development library designed to pro
 <h2>Background Context</h2>
 The goal of this project is to create a game in 3D using the raycasting as the development concept.
 
-<h3>Tasks<h3/>
-	0. Walls !
+<h3>Tasks</h3>
+	<ol>0. Walls !</ol>
 
 	   In this first part, you’ll have to:
 
