@@ -12,9 +12,9 @@ The goal of this project is to create a game in 3D using the raycasting as the d
 
 <h3>Tasks</h3>
 <ol>0. Walls !</ol>
-In this first part, you’ll have to:
-<li>Create a window with SDL2</li>
-<li>Use raycasting to draw walls on your window !</li>
+	In this first part, you’ll have to:
+	  <li>Create a window with SDL2</li>
+	  <li>Use raycasting to draw walls on your window !</li>
 <li>You don't need to be able to rotate the camera during the execution in this part, but you must provide a way to change the angle of the camera in your code to see if it works after recompiling it</li>
 <li>The color of the walls must be different from the color of the ground/ceiling</li>
 <li>The map doesn’t need to be parsed from a file, but you must provide a way to modify it in your code to see if it works after recompiling it. (e.g. using an array of arrays of integers or characters)</li>
