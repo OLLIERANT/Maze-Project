@@ -20,80 +20,115 @@ The goal of this project is to create a game in 3D using the raycasting as the d
    <li>You don't need to be able to rotate the camera during the execution in this part, but you must provide a way to change the angle of the camera in your code to see if it works after recompiling it</li>
    <li>The color of the walls must be different from the color of the ground/ceiling</li>
    <li>The map doesn’t need to be parsed from a file, but you must provide a way to modify it in your code to see if it works after recompiling it. (e.g. using an array of arrays of integers or characters)</li>
+   </ul>
+  </li>
 	
-<ol>1. Orientation</ol>
-In this part, you must draw a different color depending on the orientation of the walls.
-<li>You must at least draw walls facing NORTH and SOUTH in a different color from walls facing EAST and WEST</li>
+  <li>Orientation
+  <ul>
+  In this part, you must draw a different color depending on the orientation of the walls.
+   <li>You must at least draw walls facing NORTH and SOUTH in a different color from walls facing EAST and WEST</li>
+  </ul>
+  </li>
 	
-<ol>2. Rotation</ol>
-You must provide a way to rotate the camera during the execution.
-<li>For example, you can rotate the camera when the left,right arrows are pressed on the keyboard</li>
-<li>Or you can rotate the camera when the mouse moves, just like a FPS game !</li>
+  <li>Rotation
+  <ul>
+  You must provide a way to rotate the camera during the execution.
+   <li>For example, you can rotate the camera when the left,right arrows are pressed on the keyboard</li>
+   <li>Or you can rotate the camera when the mouse moves, just like a FPS game !</li>
+  </ul>
+  </li>
 
-<ol>3. Move</ol>
-You must provide a way to move the camera during the execution.
-<li>For example, you can move the camera when the w,a,s,d keys are pressed on the keyboard</li>
+  <li>Move
+  You must provide a way to move the camera during the execution.
+  <ul>
+   <li>For example, you can move the camera when the w,a,s,d keys are pressed on the keyboard</li>
+  </ul>
+  </li>
 
-<ol>4. Ouch !
-In this part, you must handle the collisions of the player (yes, let’s call the camera player now, it’s getting serious) with the walls.
+  <li>Ouch !
+  In this part, you must handle the collisions of the player (yes, let’s call the camera player now, it’s getting serious) with the walls.
+  <ul>
+   <li>The player must not be able to enter walls</li>
+   <li>You can make the player slide on the walls instead of just stop it</li>
+  </ul>
+  <li>
 
-<li>The player must not be able to enter walls</li>
-<li>You can make the player slide on the walls instead of just stop it</li>
-</ol>
-<ol>5. Parser
-In this part you must implement a parser to get the map from a file.
+  <li>Parser
+  In this part you must implement a parser to get the map from a file.
+  <ul>
+   <li>You are free to define the standards of your map (The character for a wall, the character for nothing, the extension of the file if you want, …)</li>
+   <li>Your program will need a parameter to run which will be the path to the map file</li>
+  </ul>
+  </li>
 
-You are free to define the standards of your map (The character for a wall, the character for nothing, the extension of the file if you want, …)
-Your program will need a parameter to run which will be the path to the map file
-Draw the map
+  <li>Draw the map
+  In this part, you must draw the map on the window.
+  <ul>
+   <li>You’re free to draw the map where you want, with the color you want, …</li>
+   <li>You must provide a way to enable/disable it during the execution</li>
+   <li>Include the player’s line of sight in the map</li>
+  </ul>
+  </li>
 
-In this part, you must draw the map on the window.
+  <li>Coding style + Documentation
+  <ul>
+   <li>Check if your code fits the Holberton School coding style</li>
+   <li>Check if your code is well documented and respect the Holberton School documentation format</li>
+   <li>You can check all of this by yourself, just follow the instructions on this repository.</li>
+  </ul>
+  </li>
 
-You’re free to draw the map where you want, with the color you want, …
-You must provide a way to enable/disable it during the execution
-Include the player’s line of sight in the map
-Coding style + Documentation
+  <li>Be careful
+  <ul>
+   <li>The check will be done on each file present on your turn in repository. Even the files that was not required. So don’t forget to always keep your turn in directory clean.</li>
+  </ul>
+  </li>
 
-Check if your code fits the Holberton School coding style
-Check if your code is well documented and respect the Holberton School documentation format
-You can check all of this by yourself, just follow the instructions on this repository.
+  <li>Textures
+  <ul>
+   <li>In this part you have to add textures on your walls !</li>
+  </ul>
+  </li>
 
-Be careful
 
-The check will be done on each file present on your turn in repository. Even the files that was not required. So don’t forget to always keep your turn in directory clean.
+  <li>Multi task !
+  <ul>
+   <li>Add a way to move on several directions and rotate in the same time. Basically in this part you’ll have to handle multiple events on the same frame.</li>
+   <li>For example, if the keys to move are w,a,s,d:</li>
+   <li>If the keys w and s are pressed in the same time, the player shouldn’t move,</li>
+   <li>If the keys w and d are pressed in the same time, the player should move forward and right in the same time…</li>
+  </ul>
+  </li>
 
-Textures
+  <li>Ground textures
+  <ul>
+   <li>In this part you have to add textures on the ground and/or on the ceiling !</li>
+  </ul>
+  </li>
 
-In this part you have to add textures on your walls !
+  <li>Weapons
+  <ul>
+   <li>Add weapons textures !</li>
+  </ul>
+  </li>
 
-Multi task !
+  <li>Enemies
+  <ul>
+   <li>Add some enemies !</li>
+  </ul>
+  </li>
 
-Add a way to move on several directions and rotate in the same time. Basically in this part you’ll have to handle multiple events on the same frame.
+  <li>Make it rain
+  <ul>
+   <li>Add rain and a possibility to stop / start the rain with a key.</li>
+  </ul>
+  </li>
 
-For example, if the keys to move are w,a,s,d:
-
-If the keys w and s are pressed in the same time, the player shouldn’t move,
-If the keys w and d are pressed in the same time, the player should move forward and right in the same time,
-…
-Ground textures
-
-In this part you have to add textures on the ground and/or on the ceiling !
-
-Weapons
-
-Add weapons textures !
-
-Enemies
-
-Add some enemies !
-
-Make it rain
-
-Add rain and a possibility to stop / start the rain with a key.
-
-Extra option
-
-Shadows, special lightning, etc… get creative!
+  <li>Extra option
+  <ul>
+   <li>Shadows, special lightning, etc… get creative!</li>
+  </ul>
+  </li>
 
 <h3>Instalation</h3>
 
