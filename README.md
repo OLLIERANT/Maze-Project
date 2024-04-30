@@ -11,7 +11,8 @@ Simple DirectMedia Layer is a cross-platform development library designed to pro
 The goal of this project is to create a game in 3D using the raycasting as the development concept.
 
 <h3>Tasks</h3>
-<ol>0. Walls !</ol>
+<ol>
+<li>Walls !
 	In this first part, you’ll have to:
 	  <li>Create a window with SDL2</li>
 	  <li>Use raycasting to draw walls on your window !</li>
