@@ -51,7 +51,7 @@ The goal of this project is to create a game in 3D using the raycasting as the d
    <li>The player must not be able to enter walls</li>
    <li>You can make the player slide on the walls instead of just stop it</li>
   </ul>
-  <li>
+  </li>
 
   <li>Parser
   In this part you must implement a parser to get the map from a file.
@@ -129,7 +129,7 @@ The goal of this project is to create a game in 3D using the raycasting as the d
    <li>Shadows, special lightning, etc… get creative!</li>
   </ul>
   </li>
-
+</ol>
 <h3>Instalation</h3>
 
 	- $ git clone https://github.com/OLLIERANT/Maze-Project.git
